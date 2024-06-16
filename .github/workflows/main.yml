@@ -66,9 +66,7 @@ jobs:
       run:  |
         mdbook build
         mv book/html/* book/
-        cp -r book/typst-pdf book/
         rm -r book/html/
-        rm -rf book/typst-pdf/
     - name: Deploy gh-pages
       if: ${{ github.ref == 'refs/heads/main' }}
       uses: peaceiris/actions-gh-pages@v3
