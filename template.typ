@@ -1,3 +1,5 @@
+#set paper("a4")
+
 #set text(
   lang: "zh",
   font: (
