@@ -1,5 +1,3 @@
-#set paper("a4")
-
 #set text(
   lang: "zh",
   font: (
@@ -31,6 +29,7 @@
 )
 
 #set page(
+  paper: "a4",
   header: locate(loc => {
     if counter(page).at(loc).first() > 1 [
       MDBOOK_TYPST_PDF_TITLE
