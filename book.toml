@@ -13,4 +13,4 @@ edit-url-template = "https://github.com/KaiserY/trpl-zh-cn/edit/main/{path}"
 [output.typst-pdf]
 pdf = true
 section-number = true
-custom_template = "template.typ"
+custom-template = "template.typ"
